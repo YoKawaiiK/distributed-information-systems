@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <header class="header">
+        <p>
+          Made by student of the MPAZ20-01 group:
+          <a
+            class="author--link"
+            href="https://github.com/YoKawaiiK"
+            target="_blank"
+            >@yokawaiik</a
+          >
+        </p>
+      </header>
+      <section class="panel">
+        <div class="panel__item panel__item_colors">
+          <input
+            type="color"
+            class="colors_item color_picker"
+            id="colorPicker"
+          />
+
+          <button
+            id="color1"
+            class="colors_item color"
+            onclick="changeColorGlobal('#5b6dd6')"
+          ></button>
+          <button
+            id="color2"
+            class="colors_item color"
+            onclick="changeColorGlobal('#81d8c5')"
+          ></button>
+          <button
+            id="color3"
+            class="colors_item color"
+            onclick="changeColorGlobal('#aa76db')"
+          ></button>
+          <button
+            id="color4"
+            class="colors_item color"
+            onclick="changeColorGlobal('#a11e4a')"
+          ></button>
+          <button
+            id="color5"
+            class="colors_item color"
+            onclick="changeColorGlobal('#000000')"
+          ></button>
+        </div>
+        <div class="panel__item panel__item_btn_delete">
+          <button id="btnDelete">Clear canvas</button>
+        </div>
+        <div class="panel__item panel__item_users">
+          <div class="panel__item_users_counter">
+            <span>Count users:</span>
+            <span id="users">0</span>
+          </div>
+        </div>
+      </section>
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
