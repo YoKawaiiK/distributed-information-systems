@@ -1,0 +1,21 @@
+{
+  "name": "realtime-drawing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node src/index.js",
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node src/index.js"
+  },
+  "keywords": ["websocket", "socket.io"],
+  "author": "@yokawaiik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
