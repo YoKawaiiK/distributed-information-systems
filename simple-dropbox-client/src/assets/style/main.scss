@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  margin: 0px;
+}
+
+$--color-primary: mediumpurple;
+$--color-hover: rgb(85, 189, 158);
+$--color-secondary: rgb(240, 110, 222);
+$--color-bg: rgb(228, 224, 209);
+
+a {
+  color: mediumpurple;
+}
