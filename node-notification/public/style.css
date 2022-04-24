@@ -1,0 +1,96 @@
+* {
+  object-fit: contain;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  color: gray;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: 1.2rem;
+  text-align: center;
+
+  color: purple;
+  font-weight: 700;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 400px;
+  max-width: 300px;
+  border: 3px solid purple;
+  border-radius: 10px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-content--form-item {
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid purple;
+}
+
+.form-btn {
+  width: 100%;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid purple;
+  color: purple;
+}
+
+.form-btn:hover {
+  border-color: gray;
+  background-color: gray;
+  color: plum;
+}
+
+.form-btn:active {
+  border: plum;
+  color: plum;
+}
+
+.github {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.github img {
+  width: 64px;
+}
+
+.author {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: gray;
+}
+
+.author--link {
+  color: purple;
+}
