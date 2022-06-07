@@ -6,3 +6,6 @@ Projects for university.
 1. simple-dropbox-client
 2. node-notification
 3. realtime-drawing
+
+## Author
+Created by @yokawaiik
